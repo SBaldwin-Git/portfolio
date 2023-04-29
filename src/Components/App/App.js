@@ -2,6 +2,8 @@ import "./App.css";
 import { Box, Container, Typography, Fade } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import React from "react";
+import "@fontsource/lato";
+import Main from "../Main/Main";
 
 const theme = createTheme({
   typography: {
@@ -36,20 +38,7 @@ function App() {
           alignItems: "center",
         }}
       >
-        <Fade in={showBox} timeout={3000}>
-          <Box>
-            <Typography
-              variant="h1"
-              sx={{
-                backgroundColor: "secondary.main",
-                borderRadius: "0.5rem",
-                p: "1rem",
-              }}
-            >
-              Hello World!
-            </Typography>
-          </Box>
-        </Fade>
+      <Main showBox={showBox} />
       </Container>
     </ThemeProvider>
   );
