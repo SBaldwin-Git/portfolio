@@ -1,9 +1,10 @@
 import "./App.css";
-import { Box, Container, Typography, Fade } from "@mui/material";
+import { Container } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import React from "react";
 import "@fontsource/lato";
 import Main from "../Main/Main";
+import NavBar from "../NavBar/NavBar";
 
 const theme = createTheme({
   typography: {
@@ -28,6 +29,7 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
+      <NavBar />
       <Container
         maxWidth="xl"
         sx={{
@@ -38,7 +40,7 @@ function App() {
           alignItems: "center",
         }}
       >
-      <Main showBox={showBox} />
+        <Main showBox={showBox} />
       </Container>
     </ThemeProvider>
   );
