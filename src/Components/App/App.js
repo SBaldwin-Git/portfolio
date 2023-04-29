@@ -1,8 +1,13 @@
+import "./App.css";
+import { Box, Container, Typography } from "@mui/material";
+
 function App() {
   return (
-    <div className="App">
-      <h1>React App</h1>
-    </div>
+    <Container>
+      <Box>
+        <Typography variant="h1">Hello world</Typography>
+      </Box>
+    </Container>
   );
 }
 
