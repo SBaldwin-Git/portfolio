@@ -26,17 +26,17 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Fade in={showBox} timeout={3000}>
-        <Container
-          maxWidth="xl"
-          sx={{
-            backgroundColor: "primary.main",
-            height: "100vh",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
+      <Container
+        maxWidth="xl"
+        sx={{
+          backgroundColor: "primary.main",
+          height: "100vh",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Fade in={showBox} timeout={3000}>
           <Box>
             <Typography
               variant="h1"
@@ -49,8 +49,8 @@ function App() {
               Hello World!
             </Typography>
           </Box>
-        </Container>
-      </Fade>
+        </Fade>
+      </Container>
     </ThemeProvider>
   );
 }
