@@ -11,9 +11,21 @@ function Main(props) {
             backgroundColor: "secondary.main",
             borderRadius: "0.5rem",
             p: "1rem",
+            whiteSpace: "pre-line",
+            fontSize: "7rem",
           }}
         >
-          Hello World!
+          Sam Baldwin
+        </Typography>
+        <Typography
+          variant="h2"
+          sx={{
+            textAlign: "center",
+            fontSize: "2.5rem",
+            mt: "1rem",
+          }}
+        >
+          Junior Full-Stack Developer
         </Typography>
       </Box>
     </Fade>
