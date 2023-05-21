@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Typography, Fade } from "@mui/material";
 
-function Main(props) {
+function Home(props) {
   return (
     <Fade in={props.showBox} timeout={3000}>
       <Box>
@@ -32,4 +32,4 @@ function Main(props) {
   );
 }
 
-export default Main;
+export default Home;
