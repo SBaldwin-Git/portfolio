@@ -19,23 +19,7 @@ The primary goal of this project is to create a visually appealing and interacti
 
 ## Colour Palette
 
-<div style="display: flex; flex-wrap: wrap;">
-    <div style="background-color: #ff6d1bff; color: #ffffff; padding: 10px; margin-right: 10px;">
-        Pumpkin (#ff6d1bff)
-    </div>
-    <div style="background-color: #f2f4f3ff; color: #000000; padding: 10px; margin-right: 10px;">
-        White Smoke (#f2f4f3ff)
-    </div>
-    <div style="background-color: #272727ff; color: #ffffff; padding: 10px; margin-right: 10px;">
-        Raisin Black (#272727ff)
-    </div>
-    <div style="background-color: #6e75a8ff; color: #ffffff; padding: 10px; margin-right: 10px;">
-        Glaucous (#6e75a8ff)
-    </div>
-    <div style="background-color: #8d91c7ff; color: #000000; padding: 10px; margin-right: 10px;">
-        Cool Gray (#8d91c7ff)
-    </div>
-</div>
+![Colour Palette](./public/assets/portfolio_colours.png)
 
 
 ## Getting Started
