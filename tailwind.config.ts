@@ -9,11 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "pumpkin": "#ff6d1bff",
-        "white-smoke": "#f2f4f3ff",
-        "raisin-black": "#272727ff",
-        "glaucous": "#6e75a8ff",
-        "cool-gray": "#8d91c7ff",
+        "prussian-blue": "#132637ff",
+        "ivory": "#fffee9ff",
+        "raisin-black": "#2b2839ff",
+        "light-coral": "#e67470ff",
+        "davys-gray": "#544e57ff",
       },
     },
   },

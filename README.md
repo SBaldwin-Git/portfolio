@@ -19,7 +19,7 @@ The primary goal of this project is to create a visually appealing and interacti
 
 ## Colour Palette
 
-![Colour Palette](./public/assets/portfolio_colours.png)
+![Colour Palette](./public/assets/Colour_Scheme.png)
 
 
 ## Getting Started
