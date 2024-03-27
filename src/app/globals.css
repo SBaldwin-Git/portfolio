@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* make body prussian blue */
+
+body {
+  @apply bg-prussian-blue;
+}
