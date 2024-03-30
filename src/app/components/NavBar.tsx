@@ -8,7 +8,7 @@ function NavBar() {
       </div>
 
       <nav className="flex flex-row">
-        <ul className="flex gap-8 text-[2rem]">
+        <ul className="flex gap-14 text-[2rem]">
           <li>
             <a href="#about">About</a>
           </li>
