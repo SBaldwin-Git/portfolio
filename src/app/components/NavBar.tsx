@@ -2,9 +2,9 @@ import React from "react";
 
 function NavBar() {
   return (
-    <header className="text-ivory flex justify-between w-full">
+    <header className="text-light-coral flex justify-between w-full mb-20">
       <div className="nameContainer">
-        <h1 className="text-ivory font-bold text-[2.5rem]">Sam Baldwin</h1>
+        <h1 className="text-light-coral font-bold text-[2.5rem]">Sam Baldwin</h1>
       </div>
 
       <nav className="flex flex-row">
