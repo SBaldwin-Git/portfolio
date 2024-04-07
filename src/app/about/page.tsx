@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <article className="text-prussian-blue">
+    <article className="text-raisin-black">
       <h1>
         Hi, I&apos;m Sam, a software developer currently based around London.
       </h1>
