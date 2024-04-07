@@ -1,10 +1,18 @@
 import React from "react";
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
 function About() {
   return (
-    <article className="text-raisin-black">
-      <h1>
-        Hi, I&apos;m Sam, a software developer currently based around London.
+    <article className="text-raisin-black flex flex-col gap-5">
+      <h1 className="text-2xl">
+        <RoughNotation
+          type="underline"
+          strokeWidth={2}
+          color="#EE4266"
+          show={true}
+        >
+          Hi, I&apos;m Sam, a software developer currently based around London.
+        </RoughNotation>
       </h1>
 
       <p>
@@ -24,11 +32,11 @@ function About() {
       <p>Always learning and always coding!</p>
 
       <p>Currently I refining my skills in:</p>
-      <ol>
+      <ul className="list-disc">
         <li>Node.js - Version 14+</li>
         <li>RESTful API&apos;s</li>
         <li>Angular - Version 17+</li>
-      </ol>
+      </ul>
       <p>
         I&apos;m on the lookout for a junior software developer role where I can
         grow and meet likeminded people.
