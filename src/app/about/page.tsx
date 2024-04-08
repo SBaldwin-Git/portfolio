@@ -4,13 +4,14 @@ import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 function About() {
   return (
     <article className="text-raisin-black flex flex-col gap-12">
+      <RoughNotationGroup show={true}>
       <div className="flex flex-col gap-6">
         <h1 className="text-6xl font-black">
           <RoughNotation
             type="highlight"
             strokeWidth={2}
             color="#EE4266"
-            show={true}
+
           >
             Hi, I&apos;m Sam
           </RoughNotation>
@@ -18,25 +19,37 @@ function About() {
         <h2 className="text-2xl font-black">
           And I&apos;m a Software developer currently based around London.
         </h2>
-        <p>
+        <p className="text-lg">
           I have recently had the pleasure of graduating from the 16-week
           intensive bootcamp at the School of Code, where I have grown both my
-          technical skills in the fundamentals of full-stack web development and
-          collaborative skills in team projects. I continue to perfect my sense
-          of humour for those moments when the code stops behaving.
+          technical skills in the fundamentals of frontend and back-end web
+          development and collaborative skills in team projects. I continue to
+          perfect my sense of humour for those moments when the code stops
+          behaving.
         </p>
-        <p>
-          I&apos;m on the lookout for a junior software developer role where I
-          can grow and meet likeminded people.
+        <p className="text-xl font-black">
+          I&apos;m on the lookout for a{" "}
+          <RoughNotation
+            type="highlight"
+            strokeWidth={2}
+            color="#2CF6B3"
+            animationDuration={1000}
+          >
+            Junior Software Developer
+          </RoughNotation>{" "}
+          role where I can grow and meet likeminded people.
         </p>
       </div>
+
       <div className="flex">
         <RoughNotation
           brackets={["left", "right"]}
-          strokeWidth={6}
+          strokeWidth={5}
           color="#EE4266"
           show={true}
           type="bracket"
+          padding={[8, 8]}
+          animationDuration={600}
         >
           <h3 className="text-2xl font-black mb-6 ml-4"> Skills:</h3>
           <div className="flex mb-6">
@@ -61,7 +74,8 @@ function About() {
             </ol>
           </div>
         </RoughNotation>
-      </div>
+        </div>
+        </RoughNotationGroup>
     </article>
   );
 }
