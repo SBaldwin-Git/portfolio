@@ -4,7 +4,7 @@ function NavBar() {
   return (
     <header className="text-raisin-black flex justify-between w-full mb-20">
       <div className="nameContainer">
-        <h1 className="text-raisin-black font-bold text-[2.5rem]">Sam Baldwin</h1>
+        <h1 className="text-raisin-black text-[2rem]">Sam Baldwin</h1>
       </div>
 
       <nav className="flex flex-row">

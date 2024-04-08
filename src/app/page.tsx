@@ -3,7 +3,7 @@ import About from "./about/page";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center h-full w-8/12 mx-auto mt-10">
+    <main className="flex flex-col items-center justify-center h-full w-7/12 mx-auto mt-4">
       <NavBar />
       <About/>
     </main>

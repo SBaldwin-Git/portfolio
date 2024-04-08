@@ -21,7 +21,7 @@ const config: Config = {
         "french-grey": "#B3B7C6",
         onyx: "#3E3F4B",
         "alice-blue": "#F0F8FF",
-        "sea-salt": "##FAFBFC",
+        "sea-salt": "#FAFBFC",
       },
     },
   },
