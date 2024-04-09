@@ -2,7 +2,7 @@ import React from "react";
 
 function NavBar() {
   return (
-    <header className="text-raisin-black flex justify-between w-full mb-20">
+    <header className="sticky text-raisin-black flex justify-around w-screen mb-16 pb-5 shadow-md shadow-french-grey">
       <div className="nameContainer">
         <h1 className="text-raisin-black text-[2rem]">Sam Baldwin</h1>
       </div>
