@@ -1,5 +1,6 @@
 import React from "react";
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+import ProjectsList from "./_ProjectsList";
 
 function About() {
   return (
@@ -76,6 +77,7 @@ function About() {
             </ol>
           </div>
         </div>
+        <ProjectsList />
       </RoughNotationGroup>
     </article>
   );
