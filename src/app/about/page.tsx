@@ -3,7 +3,7 @@ import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
 function About() {
   return (
-    <article className="text-raisin-black flex flex-col gap-14">
+    <article className="text-raisin-black flex flex-col gap-10">
       <RoughNotationGroup show={true}>
         <div className="flex flex-col gap-6">
           <h1 className="text-5xl font-black mb-2">
@@ -31,7 +31,7 @@ function About() {
             I&apos;m on the lookout for a{" "}
             <RoughNotation
               type="highlight"
-              strokeWidth={2}
+              strokeWidth={3}
               color="#2CF6B3"
               animationDuration={1000}
             >
@@ -41,14 +41,14 @@ function About() {
           </p>
         </div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col w-4/5 mx-auto">
           <h3 className="text-2xl font-black mb-6 w-full">            <RoughNotation
               type="highlight"
               strokeWidth={2}
               color="#2CF6B3"
               animationDuration={1000}
             >Skills:</RoughNotation></h3>
-          <div className="flex w-11/12 mb-6">
+          <div className="flex mb-6">
             <ol className="flex flex-row gap-2 flex-wrap justify-center text-sea-salt text-base font-medium">
               <li className="bg-onyx p-3 rounded-lg">JavaScript</li>
               <li className="bg-onyx p-3 rounded-lg">TypeScript</li>
