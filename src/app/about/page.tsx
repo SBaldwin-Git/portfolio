@@ -32,10 +32,20 @@ function About() {
               color="#2CF6B3"
               animationDuration={1200}
             >
-              frontend and backend web development and collaborative skills{" "}
+              frontend and backend web development
             </RoughNotation>{" "}
-            in team projects.{<br />} I continue to perfect my sense of humour
-            for those moments when the code stops behaving.
+            and{" "}
+            <RoughNotation
+              type="highlight"
+              strokeWidth={3}
+              padding={0}
+              color="#2CF6B3"
+              animationDuration={1200}
+            >
+              collaborative
+            </RoughNotation>{" "}
+            skills in team projects.{<br />} I continue to perfect my sense of
+            humour for those moments when the code stops behaving.
           </p>
           <p className="text-xl font-black">
             I&apos;m on the lookout for a{" "}
