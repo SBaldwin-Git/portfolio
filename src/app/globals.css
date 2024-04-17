@@ -4,6 +4,6 @@
 
 /* make body prussian blue */
 
-body {
+body, header {
   @apply bg-sea-salt;
 }
