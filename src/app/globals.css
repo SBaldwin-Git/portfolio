@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* make body prussian blue */
-
 body, header {
   @apply bg-sea-salt;
 }
