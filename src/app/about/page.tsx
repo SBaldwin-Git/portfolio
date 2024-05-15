@@ -9,8 +9,8 @@ function About() {
     <article className="text-raisin-black flex flex-col gap-10 pb-10">
       <RoughNotationGroup show={true}>
         <Intro />
-        <ProjectsList />
-        <SkillsList />
+        {/* <ProjectsList /> */}
+        {/* <SkillsList /> */}
       </RoughNotationGroup>
     </article>
   );
