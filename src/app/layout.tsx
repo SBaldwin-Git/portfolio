@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Nunito } from "next/font/google";
+import { Nunito, Mohave } from "next/font/google";
 import "./globals.css";
 
 const nunito = Nunito({ subsets: ["latin"] });
+const mohave = Mohave({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Sam Baldwin Portfolio",
@@ -16,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={nunito.className}>{children}</body>
+      <body className={mohave.className}>{children}</body>
     </html>
   );
 }
