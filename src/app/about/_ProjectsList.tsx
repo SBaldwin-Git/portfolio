@@ -6,14 +6,7 @@ function ProjectsList() {
   return (
     <>
       <h1 className="text-4xl font-black">
-        <RoughNotation
-          type="highlight"
-          strokeWidth={3}
-          color="#EE4266"
-          animationDuration={1000}
-        >
           Projects:
-        </RoughNotation>
       </h1>
 <div className='grid grid-cols-2 gap-10'>
     <div className='w-fit rounded overflow-hidden shadow-lg'>

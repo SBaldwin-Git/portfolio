@@ -4,15 +4,10 @@ import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 function Intro() {
   return (
     <div className="flex flex-col gap-6">
-      <h1 className="text-5xl font-black mb-2">
-        <RoughNotation
-          type="highlight"
-          strokeWidth={2}
-          color="#EE4266"
-          animationDuration={1000}
-        >
-          Hi, I&apos;m Sam
-        </RoughNotation>
+      <h1 className="text-8xl font-bold mb-2">
+        Sam
+        <br />
+        Baldwin
       </h1>
       <h2 className="text-xl font-black">
         And I&apos;m a software developer currently based around London.
