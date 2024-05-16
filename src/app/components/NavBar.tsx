@@ -2,12 +2,12 @@ import React from "react";
 
 function NavBar() {
   return (
-    <header className="sticky top-0 text-raisin-black flex justify-around w-screen mb-12 pb-4 pt-4 shadow-md shadow-french-grey z-50">
-      <div className="nameContainer">
+    <header className="sticky top-0 text-raisin-black flex justify-end w-screen mb-12 p-4 pr-20 shadow-md shadow-french-grey z-50">
+      {/* <div className="nameContainer">
         <h1 className="text-raisin-black text-[2rem]">Sam Baldwin</h1>
-      </div>
+      </div> */}
 
-      <nav className="flex flex-row">
+      <nav className="flex flex-row ">
         <ul className="flex gap-14 text-[2rem]">
           <li>
             <a href="#about">About</a>
