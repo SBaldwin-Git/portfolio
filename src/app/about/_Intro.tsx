@@ -1,14 +1,11 @@
 import React from "react";
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+import NameHeader from "../components/NameHeader";
 
 function Intro() {
   return (
     <div className="flex flex-col gap-6">
-      <h1 className="text-8xl font-bold mb-2">
-        Sam
-        <br />
-        Baldwin
-      </h1>
+      <NameHeader />
       <h2 className="text-xl font-black">
         And I&apos;m a software developer currently based around London.
       </h2>
