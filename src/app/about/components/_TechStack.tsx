@@ -3,9 +3,9 @@ import StackIcon from "tech-stack-icons";
 
 function TechStack() {
   return (
-    <div>
+    <div className="w-1/2">
       <h2 className="text-4xl font-bold mb-8">Tech Stack</h2>
-      <div className="grid grid-cols-8 gap-6">
+      <div className="grid grid-cols-8 gap-6 ">
         <StackIcon name="js" />
         <StackIcon name="typescript" />
         <StackIcon name="jest" />
@@ -14,6 +14,7 @@ function TechStack() {
         <StackIcon name="nextjs" />
         <StackIcon name="angular" />
         <StackIcon name="postgresql" />
+
       </div>
     </div>
   );

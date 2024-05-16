@@ -5,7 +5,7 @@ function Intro() {
   return (
       <div className="flex flex-col gap-4">
         <h2 className="text-xl font-black">
-          And I&apos;m a software developer currently based around London.
+          I&apos;m a software developer currently based in Buckinghamshire.
         </h2>
         <p className="text-lg">
           I have recently had the pleasure of graduating from the 16-week
