@@ -3,9 +3,9 @@ import StackIcon from "tech-stack-icons";
 
 function TechStack() {
   return (
-    <div className="w-1/2">
-      <h2 className="text-4xl font-bold mb-8">Tech Stack</h2>
-      <div className="grid grid-cols-8 gap-6 ">
+    <div className="w-3/5">
+
+      <div className="grid grid-cols-8 gap-4 ">
         <StackIcon name="js" />
         <StackIcon name="typescript" />
         <StackIcon name="jest" />

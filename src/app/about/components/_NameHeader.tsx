@@ -5,11 +5,11 @@ import Typewriter from "typewriter-effect";
 
 function NameHeader() {
   return (
-    <h1 className="text-9xl font-bold h-32">
+    <h1 className="text-10xl leading-none font-bold">
       {/* <ReactTyped strings={["Here you can find anything"]} typeSpeed={40} /> */}
       <Typewriter
         options={{
-          strings: ["Sam Baldwin"],
+          strings: ["Sam <br/> Baldwin"],
           autoStart: true,
           loop: true,
           deleteSpeed: Infinity,

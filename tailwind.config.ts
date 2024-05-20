@@ -25,6 +25,9 @@ const config: Config = {
         yellow: "#FFFC31",
         aquamarine: "#2CF6B3",
       },
+      fontSize: {
+        "10xl": "14rem",
+      },
     },
   },
   plugins: [],
