@@ -7,15 +7,16 @@ import ButtonRow from "./components/_ButtonRow";
 
 function About() {
   return (
-    <article className="text-raisin-black flex flex-col gap-20 pb-10 mr-auto">
+    <article className="text-raisin-black flex flex-col gap-48 mr-auto">
       <NameHeader />
 
       {/* <RoughNotationGroup show={true}>
           <Intro />
         </RoughNotationGroup> */}
-
-      <ButtonRow />
-      <TechStack />
+      <div className="flex flex-col gap-6">
+        <ButtonRow />
+        <TechStack />
+      </div>
     </article>
   );
 }
