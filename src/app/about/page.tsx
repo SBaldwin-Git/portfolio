@@ -7,7 +7,7 @@ import ButtonRow from "./components/_ButtonRow";
 
 function About() {
   return (
-    <article className="text-raisin-black flex flex-col gap-48 mr-auto">
+    <article className="text-raisin-black flex flex-col gap-60 mr-auto">
       <NameHeader />
 
       {/* <RoughNotationGroup show={true}>
