@@ -19,7 +19,7 @@ const config: Config = {
         "mint-cream": "#F5FFFA",
         "lavender-blush": "#FFF5FA",
         "red-crayola": "#EE4266",
-        "bright-red-crayola": "#FF5A80",
+        "bright-red-crayola": "#FF7599",
         "french-grey": "#B3B7C6",
         onyx: "#3E3F4B",
         "alice-blue": "#F0F8FF",
