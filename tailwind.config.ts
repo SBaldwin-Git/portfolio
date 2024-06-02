@@ -28,7 +28,7 @@ const config: Config = {
         aquamarine: "#2CF6B3",
       },
       fontSize: {
-        "10xl": "14rem",
+        "10xl": "12rem",
       },
     },
   },
