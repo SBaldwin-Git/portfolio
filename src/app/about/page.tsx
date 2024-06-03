@@ -8,7 +8,7 @@ import PersonalStatement from "./components/_PersonalStatement";
 
 function About() {
   return (
-    <article className="text-raisin-black flex flex-col gap-24 pt-4 mr-auto">
+    <article className="text-raisin-black flex flex-col gap-12 sm:gap-24 mr-auto w-full">
       <RoughNotationGroup show={true}>
         <NameHeader />
         <div className="flex flex-col gap-10">
