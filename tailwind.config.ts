@@ -12,6 +12,7 @@ const config: Config = {
         "prussian-blue": "#132637ff",
         ivory: "#fffee9ff",
         "raisin-black": "#2b2839ff",
+        "raisin-black-sub-text": "#2b2839b3",
         "bright-raisin-black": "#3a374dff",
         "light-coral": "#e67470ff",
         "davys-gray": "#544e57ff",

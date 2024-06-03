@@ -9,17 +9,14 @@ import PersonalStatement from "./components/_PersonalStatement";
 function About() {
   return (
     <article className="text-raisin-black flex flex-col gap-24 pt-4 mr-auto">
-      <NameHeader />
-
-      {/* <RoughNotationGroup show={true}>
-          <Intro />
-        </RoughNotationGroup> */}
-
-      <div className="flex flex-col gap-10">
-        <PersonalStatement />
-        <ButtonRow />
-        <TechStack />
-      </div>
+      <RoughNotationGroup show={true}>
+        <NameHeader />
+        <div className="flex flex-col gap-10">
+          <PersonalStatement />
+          <ButtonRow />
+          <TechStack />
+        </div>
+      </RoughNotationGroup>
     </article>
   );
 }
