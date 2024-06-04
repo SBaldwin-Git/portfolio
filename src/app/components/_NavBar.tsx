@@ -25,9 +25,7 @@ function NavBar() {
 
       {/* Side Panel Mobile Menu */}
       <div
-        className={`${
-          isOpen ? "fixed" : "hidden"
-        } top-0 left-0 z-50 h-full w-1/2 shadow-lg bg-sea-salt transform transition-transform ease-out duration-200 p-4 gap-2.5 flex justify-between`}
+        className={`fixed top-0 left-0 z-50 h-full w-1/2 shadow-lg bg-sea-salt transform transition-transform ease-out duration-500 p-4 gap-2.5 flex justify-between ${isOpen ? "translate-x-0" : "-translate-x-full"}`}
       >
         <ul className="flex flex-col lg:gap-14 text-4xl">
           <li>
