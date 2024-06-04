@@ -28,12 +28,12 @@ function PersonalStatement() {
           animationDelay={2000}
         >
           grow
-        </RoughNotation>{" "}
-        and{" "}
+        </RoughNotation>
+        {" "}and{" "}
         <RoughNotation
           type="highlight"
           strokeWidth={1}
-          padding={0}
+          padding={1}
           color="#EE4266"
           animationDuration={1200}
           animationDelay={2000}
