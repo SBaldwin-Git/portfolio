@@ -7,10 +7,10 @@ import PersonalStatement from "./components/_PersonalStatement";
 
 function About() {
   return (
-    <article className="text-raisin-black flex flex-col gap-4 sm:gap-24 lg:gap-28 mr-auto w-full">
+    <article className="text-raisin-black flex flex-col gap-2 sm:gap-24 md:gap-22 lg:gap-28 mr-auto w-full">
       <RoughNotationGroup show={true}>
         <NameHeader />
-        <div className="flex flex-col gap-5 md:gap-10">
+        <div className="flex flex-col gap-12 md:gap-12 xl:gap-10">
           <PersonalStatement />
           <ButtonRow />
           <TechStack />
