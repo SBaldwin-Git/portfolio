@@ -4,7 +4,7 @@ import { RoughNotation } from "react-rough-notation";
 function PersonalStatement() {
   return (
     <div>
-      <h2 className="text-sm sm:text-xl lg:text-2xl font-bold text-raisin-black-sub-text ">
+      <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-raisin-black-sub-text ">
         I&apos;m a Software Developer currently based in Buckinghamshire,
         looking for a{" "}
         <RoughNotation

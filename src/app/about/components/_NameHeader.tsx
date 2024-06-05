@@ -5,8 +5,7 @@ import Typewriter from "typewriter-effect";
 
 function NameHeader() {
   return (
-    <h1 className="text-7xl md:text-9xl xl:text-10xl leading-none font-bold h-28 md:h-48 lg:h-80 ">
-      {/* <ReactTyped strings={["Here you can find anything"]} typeSpeed={40} /> */}
+    <h1 className="text-9xl xl:text-10xl leading-none font-bold h-64 md:h-44 lg:h-80 ">
       <Typewriter
         options={{
           strings: ["Sam <br/> Baldwin"],
