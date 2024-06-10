@@ -3,9 +3,10 @@ import { RoughNotation } from "react-rough-notation";
 
 function PersonalStatement() {
   return (
-    <div>
-      <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-raisin-black-sub-text ">
-        I&apos;m a Software Developer currently based in Buckinghamshire,
+    <div className="flex flex-col gap-6">
+      <h1 className="text-lg sm:text-xl lg:text-6xl font-bold text-raisin-black-sub-text relative inline-block underline underline-offset-8">About Me</h1>
+      <p className="text-lg sm:text-xl lg:text-2xl text-raisin-black-sub-text">
+        Hello! I&apos;m a Software Developer currently based in Buckinghamshire,
         looking for a{" "}
         <RoughNotation
           type="highlight"
@@ -43,7 +44,7 @@ function PersonalStatement() {
         <br />
         My favourite part of developing software are the people I get to meet and
         learn from!
-      </h2>
+      </p>
     </div>
   );
 }
