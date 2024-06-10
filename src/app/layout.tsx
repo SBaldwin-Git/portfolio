@@ -3,8 +3,8 @@ import { Mohave, Roboto, Poppins } from "next/font/google";
 import "./globals.css";
 
 const mohave = Mohave({ subsets: ["latin"] });
-const roboto = Roboto({ subsets: ["latin"], weight: ['400', '700'] });
-const poppins = Poppins({ subsets: ["latin"], weight: ['400', '700'] });
+const roboto = Roboto({ subsets: ["latin"], weight: ["400", "700"] });
+const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata: Metadata = {
   title: "Sam Baldwin Portfolio",
@@ -19,6 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body className={poppins.className}>{children}</body>
     </html>
   );
