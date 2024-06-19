@@ -8,7 +8,7 @@ function NavBar() {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 text-raisin-black flex xl:justify-end w-full lg:w-screen mb-5 pt-2 xl:p-4 xl:pr-6 z-50">
+    <header className="sticky top-0 text-raisin-black flex xl:justify-between w-full mb-5 pt-2 xl:p-8 z-50">
       {/* Mobile Burger Menu - Hidden on Desktop Display  */}
       <div className="flex items-center xl:hidden justify-between w-full">
         <Hamburger rounded size={42} toggled={isOpen} toggle={setOpen} />
@@ -28,7 +28,12 @@ function NavBar() {
         </button>
       </div>
       {/* Desktop Navbar Links */}
-      <ul className="hidden xl:flex xl:gap-14 text-4xl p-1">
+      <div className="flex my-auto">
+        <h1 className="text-red-crayola whitespace-nowrap text-3xl">
+          {'{ sambaldwin.dev }'}
+        </h1>
+      </div>
+      <ul className="hidden xl:flex xl:gap-14 text-3xl p-1">
         <li>
           <a href="#about">About</a>
         </li>
